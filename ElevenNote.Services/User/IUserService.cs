@@ -12,3 +12,5 @@ namespace ElevenNote.Services.User
         Task<UserDetail?> GetUserByIdAsync(int userId);
     }
 }
+
+
