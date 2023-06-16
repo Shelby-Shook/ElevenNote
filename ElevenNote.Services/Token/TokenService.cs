@@ -7,6 +7,11 @@ using ElevenNote.Data;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using ElevenNote.Models.Tokens;
+using ElevenNote.Models.Token;
+using Microsoft.AspNetCore.Identity;
 
 namespace ElevenNote.Services.Token;
 
